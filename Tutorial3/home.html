@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Cave of Programming | Programming videos, tutorials and online courses</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="http://www.caveofprogramming.com/wp-content/themes/squiffy/style.css" />
+<link rel="pingback" href="http://www.caveofprogramming.com/xmlrpc.php" />
+<!-- wp_jschat dans le header -->
+<!-- END wp_jschat dans le header -->
+<link rel="alternate" type="application/rss+xml" title="Cave of Programming &raquo; Feed" href="http://www.caveofprogramming.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Cave of Programming &raquo; Comments Feed" href="http://www.caveofprogramming.com/comments/feed/" />
+<meta name="description" content="Lots and lots of free video tutorials and articles on Java programming. Why spend time ploughing through articles when you can sit back, relax and enjoy having..." />
+<link rel="alternate" type="application/rss+xml" title="Cave of Programming &raquo; Java Programming Video Tutorials Comments Feed" href="http://www.caveofprogramming.com/java-programming-tutorials/feed/" />
+<meta name="keywords" content="java, programming, swing, android, jsp, servlet, multithreading, video, tutorial" />
+<meta name="robots" content="index,follow,noodp,noydir" />
+<link rel="canonical" href="http://www.caveofprogramming.com/" />
+<link rel='stylesheet' id='fcbkStylesheet-css'  href='http://www.caveofprogramming.com/wp-content/plugins/facebook-button-plugin/css/style.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_jschat-css'  href='http://www.caveofprogramming.com/wp-content/plugins/javascript-chat-for-wordpress/css/wp_jschat.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='adv-spoiler-css'  href='http://www.caveofprogramming.com/wp-content/plugins/advanced-spoiler/css/advanced-spoiler.css?ver=2.02' type='text/css' media='all' />
+<link rel='stylesheet' id='page-list-style-css'  href='http://www.caveofprogramming.com/wp-content/plugins/sitemap/css/page-list.css?ver=1.9' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.caveofprogramming.com/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.caveofprogramming.com/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='http://www.caveofprogramming.com/wp-content/plugins/javascript-chat-for-wordpress/javascript/wp_jschat.js?ver=3.5.1'></script>
+<script type='text/javascript' src='http://www.caveofprogramming.com/wp-content/plugins/advanced-spoiler/js/jquery-spoiler.js?ver=2.02'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var SHRSB_Globals = {"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","perfoption":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.caveofprogramming.com/wp-content/uploads/shareaholic/spritegen/jquery.shareaholic-publishers-sb.min.js?ver=4.0.6.4'></script>
+<script type='text/javascript' src='http://dtym7iokkjlif.cloudfront.net/dough/1.0/recipe.js'></script>
+<script type='text/javascript' src='http://www.caveofprogramming.com/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.caveofprogramming.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.caveofprogramming.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='This is a test page. Please ignore it.' href='http://www.caveofprogramming.com/test1/' />
+<link rel='next' title='Test Page' href='http://www.caveofprogramming.com/test-page/' />
+<meta name="generator" content="WordPress 3.5.1" />
+
+
+<!-- Google and other search engines should not cache this page. Plugin by Kristian Risager Larsen, http://kezze.dk . Download the plugin at http://wordpress.org/extend/plugins/avoid-googles-cache/ -->
+<meta name="robots" content="noarchive" />
+
+
+
+<!-- Start Shareaholic OgTags -->
+
+	<meta property='og:image' content='http://www.caveofprogramming.com/wp-content/uploads/2012/12/javabegin.jpg' />
+
+<!-- End Shareaholic OgTags -->
+
+<!-- Required by Subscribe Here Plugin 1.0 plugin --><link rel="stylesheet" type="text/css" href="http://www.caveofprogramming.com/wp-content/plugins/subscribe-here-widget/subscribe-here-widget.css" media="screen" />	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript" src="http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shCore.js"></script>
+<script type="text/javascript" src="http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shAutoloader.js"></script>
+<link type="text/css" rel="stylesheet" href="http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/styles/shCoreDefault.css"/>
+<!-- END: Syntax Highlighter ComPress -->
+
+  <style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
+</style>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><!-- Google Analytics Tracking by Google Analyticator 6.2: http://ronaldheft.com/code/analyticator/ -->
+<script type="text/javascript">
+	var analyticsFileTypes = [''];
+	var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-21085672-3']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_trackPageLoadTime']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+</head>
+
+<body>
+
+<center>
+<a class="logo" href="http://www.caveofprogramming.com"><img src="http://www.caveofprogramming.com/wp-content/themes/squiffy/images/logo.png" alt="Cave of Programming" /></a>
+</center>
+		<div id="container">
+			<div id="content" role="main">
+
+			
+
+<div id='fb-root'></div>
+					<script type='text/javascript'>
+						window.fbAsyncInit = function()
+						{
+							FB.init({appId: null, status: true, cookie: true, xfbml: true});
+						};
+						(function()
+						{
+							var e = document.createElement('script'); e.async = true;
+							e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+							document.getElementById('fb-root').appendChild(e);
+						}());
+					</script>	
+					
+<div id="post-2519" class="post-2519 page type-page status-publish hentry">
+			<h2 class="center">Java Programming Video Tutorials</h2>
+
+			
+
+				<div class="entry-content">
+				<div id='fb-root'></div>
+					<script type='text/javascript'>
+						window.fbAsyncInit = function()
+						{
+							FB.init({appId: null, status: true, cookie: true, xfbml: true});
+						};
+						(function()
+						{
+							var e = document.createElement('script'); e.async = true;
+							e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+							document.getElementById('fb-root').appendChild(e);
+						}());
+					</script>	
+						
+<div style="padding-top: 10px;">
+<a class="imagelink" href="http://www.caveofprogramming.com/java/debugging-in-eclipse-java-for-complete-beginners/">
+<span class="alignleft mainimage" style="padding: 0px; margin-right: 5px;">
+<img src="http://www.caveofprogramming.com/wp-content/uploads/2012/12/mug11.png" alt="New" width="160" height="120" class="aligncenter size-full wp-image-2578" /> 
+</span>
+</a>
+<a class="mainlink" href="http://www.caveofprogramming.com/java/debugging-in-eclipse-java-for-complete-beginners/">Debugging in Eclipse: Java for Complete Beginners</a>
+<br/>
+A video on how to use the debugger in Eclipse. Debugging is something that a lot of developers happily get by without, but it&#8217;s something that&#8217;s sometimes very useful, and it&#8217;s certainly something that every aspiring developer should learn. Debuggers &hellip; <a href="http://www.caveofprogramming.com/java/debugging-in-eclipse-java-for-complete-beginners/">Continue reading <span class="meta-nav">&rarr;</span></a></div>
+<br clear="all"/>
+
+
+<table style="border: none;">
+<tr><td valign="bottom"><a href="https://twitter.com/CaveOfProgram" class="twitter-follow-button" data-show-count="false">Follow @CaveOfProgram</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></td><td valign="top"><div class="hl_twitter_shortcode"><h3>Tweet</h3><ul><li>
+			<p class="hl_twitter_shortcode_tweet">I've just created a video on <a href="http://search.twitter.com/search?q=Perl">#Perl</a>, installation and editors; uploading to YouTube now!</p>
+			<p class="hl_twitter_shortcode_meta">
+				Tweeted on 
+				<a href="http://twitter.com/CaveOfProgram/status/295879159522140161" title="1:01pm">January 28, 2013</a>
+				by <a href="http://twitter.com/CaveOfProgram" title="View Twitter profile">CaveOfProgram</a></p></li></ul></div></td></tr>
+
+</table>
+
+<div id="fblike" class="fb-like" data-href="http://www.caveofprogramming.com" data-send="true" data-width="450" data-show-faces="true"></div>
+
+
+
+<h2 class="center">Complete Java Video Courses (including lots of free content)</h2>
+
+<table class="icontable">
+<tr>
+	<td>
+	<a class="imagelink" href="http://www.udemy.com/java-tutorial/">
+		<img src="http://www.caveofprogramming.com/wp-content/uploads/2012/12/javabegin_sm.png" alt="javabegin_sm" width="160" height="120" class="aligncenter size-full wp-image-2553" />
+	</a>
+	</td>
+	<td>
+	<a class="imagelink" href="http://www.udemy.com/java-swing-complete/?couponCode=copface">
+		<img src="http://www.caveofprogramming.com/wp-content/uploads/2012/12/swing_sm.png" alt="Java Swing" width="160" height="120" class="aligncenter size-full wp-image-2555" />
+	</a>
+	</td>
+	<td>
+	<a class="imagelink" href="http://www.udemy.com/javawebtut/?couponCode=copface">
+		<img src="http://www.caveofprogramming.com/wp-content/uploads/2012/12/servlets_sm.png" alt="Servlets and JSPs" width="160" height="120" class="aligncenter size-full wp-image-2554" />
+	</a>
+	</td>
+	<td>
+	<a class="imagelink" href="http://www.udemy.com/android-tutorial/?couponCode=copface">
+		<img src="http://www.caveofprogramming.com/wp-content/uploads/2012/12/android_sm.png" alt="Learn Android Programming" width="160" height="120" class="aligncenter size-full wp-image-2552" />
+	</a>
+	</td>
+	<td>
+	<a class="imagelink" href="http://www.udemy.com/java-multithreading/">
+		<img src="http://www.caveofprogramming.com/wp-content/uploads/2012/12/threads_sm.png" alt="Java Multithreading" width="160" height="120" class="aligncenter size-full wp-image-2556" />
+	</a>
+	</td>
+</tr>
+<tr>
+	<td><a class="homelink" href="http://www.udemy.com/java-tutorial/">Java for Complete Beginners</a></td>
+	<td><a class="homelink" href="http://www.udemy.com/java-swing-complete/?couponCode=copface">Mastering Java Swing</a></td>
+	<td><a class="homelink" href="http://www.udemy.com/javawebtut/?couponCode=copface">Java Servlets and JSPs</a></td>
+	<td><a class="homelink" href="http://www.udemy.com/android-tutorial/?couponCode=copface">Learn Android Programming</a></td>
+	<td><a class="homelink" href="http://www.udemy.com/java-multithreading/">Java Multithreading</a></td>
+</tr>
+<tr>
+	<td class="free">completely free</td>
+	<td class="somefree">7 free videos</td>
+	<td class="somefree">7 free videos</td>
+	<td class="somefree">6 free videos</td>
+	<td class="free">completely free</td>
+</tr>
+<tr>
+	<td></td>
+	<td class="premium">14 hours premium content</td>
+	<td class="premium">10 hours premium content</td>
+	<td class="premium">14 hours premium content</td>
+	<td></td>
+</tr>
+</table>
+
+
+
+<div id="info">
+<img src="http://www.caveofprogramming.com/wp-content/uploads/2011/09/mesmall.png" alt="" title="mesmall" width="133" height="133" class="alignright size-full wp-image-838" />
+<p>Welcome to my site! My name's John; I used to be a software developer and contractor, but these days as you can see, I'm into making videos. Back in 2011 I quit my job, moved to Budapest and started this site. Thanks to your great reviews and generosity, I'm now able to spend much more time sleeping and pursuing random ideas than I ever dreamed possible.</p>
+<p>On this site you can find lots and lots of completely free programming articles and Java video tutorials, as well as some subscription-only courses (all of which have some free content that you can view just by clicking the icons at the top of the page and scrolling down a bit).</p>
+
+<p>If you want to drop me a line, you can find me at john@caveofprogramming.com. I try to respond to all emails.</p>
+
+<p>I'm adding new content to this site constantly, and I'm continually creating new courses and enlarging existing ones. So have a good look around, and come back soon.</p>
+
+<p>Happy Coding!</p>
+
+- John
+
+<h3>My Latest Projects</h3>
+
+I'm currently putting together a site about physics and consciousness: <a href="http://www.quantumlifetime.com">www.QuantumLifetime.com</a>. Over a period of many years, I've come to the conclusion that our minds take a far more active role in creating the "universe" than we usually care to imagine.
+
+My next programming projects will probably involve a free course on Java design patterns, and a subscription-only course on Perl, or possibly Java Spring (I haven't fully decided). First videos coming soon ....
+
+I'll continue to add to the free Java for Complete Beginners course.
+
+<h3>Want a Course but Can't Afford to Pay?</h3>
+
+If you want access to one of my paid courses but can't afford to pay, email me at john@caveofprogramming.com with a brief email explaining your situation, and I'll consider giving you free access. If you can afford to pay, please do pay -- because I'm not rich and I rely on income from my courses to pay my rent :)
+
+<h3>Join Us On Facebook</h3>
+
+Cave of Programming is on Facebook! <a href="http://www.facebook.com/caveofprogramming">www.facebook.com/caveofprogramming</a>
+
+<h3>Need some software writing? Help with coursework?</h3>
+I'm not currently accepting new clients for my 1-to-1 lessons, but my friend Alikas can help you out for a modest fee (payable via PayPal). You can email him directly here: jesatovas@gmail.com
+
+</div>
+
+
+<p>&nbsp;</p>
+<table class="downloads">
+<tr id="downloads"><td colspan="2">Downloads</td></tr>
+<tr><td colspan="2">The courses at the top of this page are hosted on Udemy.com, where you can view streaming videos and also find more details about them. Each course also has some free content that you can watch without subscribing. If you prefer, the following courses are also available to download directly: </td></tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr><td>Mastering Java Swing</td><td><a href="http://sellfy.com/p/TrIa" id="TrIa" class="sellfy-buy-button sellfy-small">buy</a><script type="text/javascript" src="http://sellfy.com/js/api_buttons.js"></script></td></tr>
+<tr><td>Learn Servlets and JSPs</td><td><a href="http://sellfy.com/p/Wlo1" id="Wlo1" class="sellfy-buy-button sellfy-small">buy</a><script type="text/javascript" src="http://sellfy.com/js/api_buttons.js"></script></td></tr>
+</table>
+	
+
+<h2  class="center">YouTube Java Video Tutorials</h2>
+<p/>
+
+<h4 class="center">Basic Java Video Tutorials</h4>
+<div class="videolist">
+<div id='fb-root'></div>
+					<script type='text/javascript'>
+						window.fbAsyncInit = function()
+						{
+							FB.init({appId: null, status: true, cookie: true, xfbml: true});
+						};
+						(function()
+						{
+							var e = document.createElement('script'); e.async = true;
+							e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+							document.getElementById('fb-root').appendChild(e);
+						}());
+					</script>	
+					<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-1-a-hello-world-program/">Java for Complete Beginners (Video), Part 1: A Hello World Program</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-2-using-variables/">Java for Complete Beginners (Video), Part 2: Using Variables</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-3-strings/">Java for Complete Beginners (Video), Part 3: Strings</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-4-while-loops/">Java for Complete Beginners (Video), Part 4: While Loops</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-5-for-loops/">Java for Complete Beginners (Video), Part 5: For Loops</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-6-if/">Java for Complete Beginners (Video), Part 6: If</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-7-getting-user-input/">Java for Complete Beginners (Video), Part 7: Getting User Input</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-8-do-while/">Java for Complete Beginners (Video), Part 8: Do &#8230; While</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/video-tutorial-switch/">Java for Complete Beginners (Video), Part 9: Switch</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-10-arrays/">Java for Complete Beginners (Video), Part 10: Arrays</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-11-string-arrays/">Java for Complete Beginners (Video), Part 11: Arrays of Strings</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-12-multi-dimensional-arrays/">Java for Complete Beginners (Video), Part 12: Multi-dimensional Arrays</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-13-classes-and-objects/">Java for Complete Beginners (Video), Part 13: Classes and Objects</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-14-methods/">Java for Complete Beginners (Video), Part 14: Methods</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-15-getters-return-values/">Java for Complete Beginners (Video), Part 15: Getters and Return Values</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-16-method-parameters/">Java for Complete Beginners (Video), Part 16: Method Parameters</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-17-setters-this/">Java for Complete Beginners (Video), Part 17: Setters and &#8216;this&#8217;</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-18-constructors/">Java for Complete Beginners (Video), Part 18: Constructors</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-19-static/">Java for Complete Beginners (Video), Part 19: Static (and Final)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-20-stringbuilder-stringbuffer-formatting-strings/">Java for Complete Beginners (Video), Part 20: StringBuilder and String Formatting</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-21-tostring/">Java for Complete Beginners (Video), Part 21: toString()</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-22-inheritance/">Java for Complete Beginners (Video), Part 22: Inheritance</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-23-interfaces/">Java for Complete Beginners (Video), Part 23: Interfaces</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-24-packages/">Java for Complete Beginners (Video), Part 24: Packages</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-25-access-modifiers/">Java for Complete Beginners (Video), Part 25: Public, Private, Protected</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-26-polymorphism/">Java for Complete Beginners (Video), Part 26: Polymorphism</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-27-encapsulation-api-docs/">Java for Complete Beginners (Video), Part 27: Encapsulation and the API Docs</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-28-castin/">Java for Complete Beginners (Video), Part 28: Casting Numerical Values</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-29-upcasting-downcasting/">Java for Complete Beginners (Video), Part 29: Upcasting and Downcasting</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-30-generic/">Java for Complete Beginners (Video), Part 30: Using Generics</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-31-generics-wildcards/">Java for Complete Beginners (Video), Part 31: Generics and Wildcards</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-32-anonymous-classes/">Java for Complete Beginners (Video), Part 32: Anonymous Classes</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-33-reading-files/">Java for Complete Beginners (Video), Part 33: Reading Files</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-34-handling-exceptions/">Java for Complete Beginners (Video), Part 34: Handling Exceptions</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-35-throwing-exceptions/">Java for Complete Beginners (Video), Part 35: Throwing Exceptions</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-36-multiple-exceptions/">Java for Complete Beginners (Video), Part 36: Multiple Exceptions</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-37-runtime-exception/">Java for Complete Beginners (Video), Part 37: Runtime Exceptions</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-38-abstract-classes/">Java for Complete Beginners (Video), Part 38: Abstract Classes</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/debugging-in-eclipse-java-for-complete-beginners/">Debugging in Eclipse: Java for Complete Beginners</a></div>
+</div>
+
+<h4 class="center">Java Collections Framework Tutorials - Vital Skills For All Java Programmers</h4>
+<div  class="videolist">
+<div id='fb-root'></div>
+					<script type='text/javascript'>
+						window.fbAsyncInit = function()
+						{
+							FB.init({appId: null, status: true, cookie: true, xfbml: true});
+						};
+						(function()
+						{
+							var e = document.createElement('script'); e.async = true;
+							e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+							document.getElementById('fb-root').appendChild(e);
+						}());
+					</script>	
+					<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/arraylist-java-collections-framework-tutorial-part-1/">Online Java Tutor: ArrayList: Java Collections Framework Video Tutorial, Part 1</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/linkelist-java-collections-framework-video-tutorial-part-2/">Online Java Tutor: LinkedList: Java Collections Framework Video Tutorial, Part 2</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/hashmap-java-collections-framework-video-tutorial-part-3/">Online Java Tutor: HashMap: Java Collections Framework Video Tutorial, Part 3</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/sorted-maps-java-collections-framework-video-tutorial-part-4/">Online Java Tutor: Sorted Maps: Java Collections Framework Video Tutorial, Part 4</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/hashset-sets-java-collections-framework-video-tutorial-part-5/">Online Java Tutor: HashSet and Sets: Java Collections Framework Video Tutorial, Part 5</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/sets-maps-user-objects-java-collections-framework-video-tutorial-part-6/">Online Java Tutor: Using Custom Objects in Sets and as Map Keys: Java Collections Framework Video Tutorial, Part 6</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/sorting-lists-using-comparators-java-collections-framework-video-tutorial-part-7/">Online Java Tutor: Sorting Lists Using Comparators: Java Collections Framework Video Tutorial, Part 7</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/natural-order-comparable-collection-java-collections-framework-video-tutorial-part-8/">Online Java Tutor: Natural Ordering and the Comparable Interface: Java Collections Framework Video Tutorial, Part 8</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/queue-java-collections-framework-video-tutorial-part-9/">Online Java Tutor: Queues: Java Collections Framework Video Tutorial, Part 9</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/using-iterators-java-collections-framework-video-tutorial-part-10/">Online Java Tutor: Using Iterators: Java Collections Framework Video Tutorial, Part 10</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/using-iterable-java-collections-framework-video-tutorial-part-11/">Online Java Tutor: Implementing Iterable; Downloading HTML Using Java: Java Collections Framework Video Tutorial, Part 11</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/deciding-which-collection-video-tutorial-part-12/">Online Java Tutor: Deciding Which Collection to Use: Java Collections Framework Video Tutorial, Part 12</a></div>
+</div>
+
+<h4 class="center">Java Multithreading -- Unveil the Mystery!</h4>
+<div  class="videolist">
+<div id='fb-root'></div>
+					<script type='text/javascript'>
+						window.fbAsyncInit = function()
+						{
+							FB.init({appId: null, status: true, cookie: true, xfbml: true});
+						};
+						(function()
+						{
+							var e = document.createElement('script'); e.async = true;
+							e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+							document.getElementById('fb-root').appendChild(e);
+						}());
+					</script>	
+					<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-video-tutorial-part-1-starting-threads/">Online Java Tutor: Java Multithreading: Starting Threads (Video Tutorial Part 1)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-video-tutorial-part-2-basic-thread-communication/">Online Java Tutor: Java Multithreading: Volatile &#8211; Basic Thread Communication (Video Tutorial Part 2)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-video-tutorial-part-3-the-synchronized-keyword/">Online Java Tutor: Java Multithreading: Synchronized (Video Tutorial Part 3)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multiple-locks/">Online Java Tutor: Java Multithreading: Lock Objects (Video Tutorial Part 4)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-thread-pools-video-tutorial-part/">Online Java Tutor: Java Multithreading: Thread Pools (Video Tutorial Part 5)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-countdown-latches-video-tutorial-part-6/">Online Java Tutor: Java Multithreading: Countdown Latches (Video Tutorial Part 6)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-producer-consumer-blockingqueue-part-7/">Online Java Tutor: Java Multithreading: Producer-Consumer (Video Tutorial Part 7)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-wait-notify-part-8/">Online Java Tutor: Java Multithreading: Wait and Notify (Video Tutorial Part 8)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-wait-and-notify-video-tutorial-producer-consumer-part-9/">Online Java Tutor: Java Multithreading: Low-Level Producer-Consumer (Video Tutorial Part 9)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-reentrantlock-video-tutorial-part-10/">Online Java Tutor: Java Multithreading: Re-entrant Locks (Video Tutorial Part 10)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-deadlock-video-tutorial-part-11/">Online Java Tutor: Java Multithreading: Deadlock (Video Tutorial Part 11)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-semaphores-part-12/">Online Java Tutor: Java Multithreading: Semaphores (Video Tutorial Part 12)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-callable-future-video-tutorial-part-13/">Online Java Tutor: Java Multithreading: Callable and Future (Video Tutorial Part 13)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-interrupting-threads-video-tutorial-part-14/">Online Java Tutor: Java Multithreading: Interrupting Threads (Video Tutorial Part 14)</a></div>
+<div style="margin-top: 5px;"><a style="color: black; font-weight: bold;" href="http://www.caveofprogramming.com/java/java-multithreading-swing-swingworker-part-15/">Online Java Tutor: Java Multithreading: Swing and SwingWorker (Video Tutorial Part 15)</a></div>
+</div>
+
+<h2 class="center">Featured Posts</h2>
+
+<p class="linkseparator"><a href="http://www.caveofprogramming.com/java/basic-java-programming-test-your-knowledge/">Basic Java Programming: Test Your Knowledge</a></p>
+
+<p class="linkseparator"><a href="http://www.caveofprogramming.com/c/basic-c-programming-test-your-knowledge/">Basic C++ Programming: Test Your Knowledge</a></p>
+
+<p class="linkseparator"><a href="http://www.caveofprogramming.com/java/ten-tips-to-make-you-a-better-programmer/">Ten Tips to Make You a Better Programmer</a></p>
+
+<p class="linkseparator"><a href="http://www.caveofprogramming.com/category/java-video/">Check out the Beginner's Guide to Java video series here</a></p>
+
+<h2 class="center">Categories</h2>
+
+
+ <li class="categories">Categories<ul>	<li class="cat-item cat-item-92"><a href="http://www.caveofprogramming.com/category/as3-flash/" title="View all posts filed under AS3 (Flash)">AS3 (Flash)</a>
+</li>
+	<li class="cat-item cat-item-116"><a href="http://www.caveofprogramming.com/category/assorted/" title="View all posts filed under Assorted Stuff">Assorted Stuff</a>
+</li>
+	<li class="cat-item cat-item-48"><a href="http://www.caveofprogramming.com/category/csharp/" title="View all posts filed under C#">C#</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="http://www.caveofprogramming.com/category/c/" title="View all posts filed under C++">C++</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="http://www.caveofprogramming.com/category/installers/" title="View all posts filed under Developing Installers">Developing Installers</a>
+</li>
+	<li class="cat-item cat-item-165"><a href="http://www.caveofprogramming.com/category/graphics/" title="View all posts filed under graphics">graphics</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://www.caveofprogramming.com/category/java/" title="View all posts filed under Java">Java</a>
+</li>
+	<li class="cat-item cat-item-103"><a href="http://www.caveofprogramming.com/category/java-collections-framework/" title="View all posts filed under Java Collections Framework">Java Collections Framework</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://www.caveofprogramming.com/category/javatutorial/" title="View all posts filed under Java Tutorial">Java Tutorial</a>
+</li>
+	<li class="cat-item cat-item-82"><a href="http://www.caveofprogramming.com/category/java-video-tutorials-advanced/" title="View all posts filed under Java Video Tutorials (Advanced)">Java Video Tutorials (Advanced)</a>
+<ul class='children'>
+	<li class="cat-item cat-item-91"><a href="http://www.caveofprogramming.com/category/java-video-tutorials-advanced/java-multithreading/" title="View all posts filed under Java Multithreading">Java Multithreading</a>
+</li>
+	<li class="cat-item cat-item-90"><a href="http://www.caveofprogramming.com/category/java-video-tutorials-advanced/java-swing-gui/" title="View all posts filed under Java Swing (GUI)">Java Swing (GUI)</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-73"><a href="http://www.caveofprogramming.com/category/java-video/" title="View all posts filed under Java Video Tutorials (Beginners)">Java Video Tutorials (Beginners)</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.caveofprogramming.com/category/javascript-2/" title="View all posts filed under Javascript">Javascript</a>
+</li>
+	<li class="cat-item cat-item-140"><a href="http://www.caveofprogramming.com/category/mastering-java-swing/" title="View all posts filed under Mastering Java Swing, Complete Course">Mastering Java Swing, Complete Course</a>
+</li>
+	<li class="cat-item cat-item-110"><a href="http://www.caveofprogramming.com/category/mysql/" title="View all posts filed under MySQL">MySQL</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.caveofprogramming.com/category/perl/" title="View all posts filed under Perl">Perl</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.caveofprogramming.com/category/php/" title="View all posts filed under PHP">PHP</a>
+</li>
+	<li class="cat-item cat-item-150"><a href="http://www.caveofprogramming.com/category/servlets-and-jsps/" title="View all posts filed under Servlets and JSPs">Servlets and JSPs</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="http://www.caveofprogramming.com/category/advert/" title="View all posts filed under Tuition">Tuition</a>
+</li>
+</ul></li>
+<h2  class="center">Latest Posts</h2>
+
+<div id='fb-root'></div>
+					<script type='text/javascript'>
+						window.fbAsyncInit = function()
+						{
+							FB.init({appId: null, status: true, cookie: true, xfbml: true});
+						};
+						(function()
+						{
+							var e = document.createElement('script'); e.async = true;
+							e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+							document.getElementById('fb-root').appendChild(e);
+						}());
+					</script>	
+					
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/debugging-in-eclipse-java-for-complete-beginners/">Debugging in Eclipse: Java for Complete Beginners</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-38-abstract-classes/">Java for Complete Beginners (Video), Part 38: Abstract Classes</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-37-runtime-exception/">Java for Complete Beginners (Video), Part 37: Runtime Exceptions</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-36-multiple-exceptions/">Java for Complete Beginners (Video), Part 36: Multiple Exceptions</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-35-throwing-exceptions/">Java for Complete Beginners (Video), Part 35: Throwing Exceptions</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/ten-tips-to-make-you-a-better-programmer/">Ten Tips to Make You a Better Programmer</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/boxshot">Creating Product Boxes with Inkscape and Box Shot 3D</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-34-handling-exceptions/">Java for Complete Beginners (Video), Part 34: Handling Exceptions</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/deciding-which-collection-video-tutorial-part-12/">Deciding Which Collection to Use: Java Collections Framework Video Tutorial, Part 12</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-advent-calendar-looking-for-authors/">Java Advent Calendar (Looking for Authors)</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-multithreading-swing-swingworker-part-15/">Java Multithreading: Swing and SwingWorker (Video Tutorial Part 15)</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/using-iterable-java-collections-framework-video-tutorial-part-11/">Implementing Iterable; Downloading HTML Using Java: Java Collections Framework Video Tutorial, Part 11</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/using-iterators-java-collections-framework-video-tutorial-part-10/">Using Iterators: Java Collections Framework Video Tutorial, Part 10</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/java-for-complete-beginners-video-part-33-reading-files/">Java for Complete Beginners (Video), Part 33: Reading Files</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/java/queue-java-collections-framework-video-tutorial-part-9/">Queues: Java Collections Framework Video Tutorial, Part 9</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/servlets-and-jsps/hello-world-servlet/">Servlets and JSPs: Part 3 &#8211; A &#8220;Hello World&#8221; Servlet</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/assorted/make-money-as-a-affiliate-of-cave-of-programming/">Make Money as a Affiliate of Cave of Programming</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/servlets-and-jsps/tomcat-eclipse-part-2/">Servlets and JSPs: Part 2 &#8211; Setting Up Your System</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/courses">Complete Video Courses</a></p>
+
+
+
+<p class="linkseparator"><a class="mainlink" href="http://www.caveofprogramming.com/javaweb">JSP and Servlet Tutorial: Learn Java Web Programming</a></p>
+
+
+							</div><!-- .entry-content -->
+	
+			<div id="comments">
+
+
+			<h3 id="comments-title">19 Responses to <em>Java Programming Video Tutorials</em></h3>
+
+
+			<ol class="commentlist">
+					<li class="comment even thread-even depth-1" id="li-comment-2335">
+		<div id="comment-2335">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/1b808017acbed6cab0d85d804c0a1e16?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn"><a href='http://itinajero.blogspot.mx' rel='external nofollow' class='url'>Ivan Tinajero</a></cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2335">
+			December 19, 2012 at 12:48 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Hi, John.</p>
+<p>My name&#8217;s Ivan Tinajero, I&#8217;m from Mexico. Last week, I was looking for some Videotutorials about Java programming and, I found this excellent site. Your videos have helped me a lot. The videos are very useful, thank you for sharing your knowledge and experience.</p>
+<p>Regards..</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2335#respond' onclick='return addComment.moveForm("comment-2335", "2335", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2351">
+		<div id="comment-2351">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/64f435d285e06d0bad74e466d1ac0696?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Dimple Singla</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2351">
+			December 21, 2012 at 6:00 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>sir thanks for your such a great help ..:) sir keep posting the videos <img src='http://www.caveofprogramming.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2351#respond' onclick='return addComment.moveForm("comment-2351", "2351", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment even thread-even depth-1" id="li-comment-2361">
+		<div id="comment-2361">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/e41e56453ad99eb79b3aab7dcebb186e?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Sujeet</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2361">
+			December 22, 2012 at 4:19 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>This is great website, helping all of us.<br />
+It helps to explore the langauage.<br />
+Thanks for all the stuff.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2361#respond' onclick='return addComment.moveForm("comment-2361", "2361", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2374">
+		<div id="comment-2374">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/58574cbe6b783a3fbb5bbf99a6da5fe2?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Alikas</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2374">
+			December 23, 2012 at 11:24 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>I noticed you renewed your website. Looks orderly now. well done!!</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2374#respond' onclick='return addComment.moveForm("comment-2374", "2374", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment even thread-even depth-1" id="li-comment-2407">
+		<div id="comment-2407">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/61a8c9ecdd9451f2b83a634863018b4f?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Pranav</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2407">
+			December 26, 2012 at 6:07 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Also, can you please add a video example for interface vs abstract class??  Many Thanks</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2407#respond' onclick='return addComment.moveForm("comment-2407", "2407", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2411">
+		<div id="comment-2411">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/b23307e6aebe444a516f2587cc6b9570?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Vijai S Karki</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2411">
+			December 26, 2012 at 1:34 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Excellent tutorials.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2411#respond' onclick='return addComment.moveForm("comment-2411", "2411", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment even thread-even depth-1" id="li-comment-2415">
+		<div id="comment-2415">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/e6b907ac2396eeb20b3ea0ba957a770f?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">pavan</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2415">
+			December 26, 2012 at 7:05 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>this is an excellent site. Very very helpful.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2415#respond' onclick='return addComment.moveForm("comment-2415", "2415", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2459">
+		<div id="comment-2459">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/88bfcf2e7eb6cde9ea58a569670827fb?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Rahul</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2459">
+			December 30, 2012 at 1:40 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Very informative and elaborated tutorials. Really liked it. . . <img src='http://www.caveofprogramming.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2459#respond' onclick='return addComment.moveForm("comment-2459", "2459", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment even thread-even depth-1" id="li-comment-2477">
+		<div id="comment-2477">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/dd95131664cff92edb665c2d37ec4d17?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Ash</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2477">
+			January 2, 2013 at 2:00 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Almost after 10 years I have to work on JAVA . Your Collection tutorial were really helpful. I would certainly recommend your website to all.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2477#respond' onclick='return addComment.moveForm("comment-2477", "2477", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2576">
+		<div id="comment-2576">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/dfdce91a379803ed7f1fec261a1b3f04?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn"><a href='http://deekshita.com' rel='external nofollow' class='url'>Dk</a></cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2576">
+			January 11, 2013 at 3:47 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>John this is a great collection of videos you got going. I am so happy to have found this website and it has helped me a lot to brush on the fundamentals of Java once again !! Keep the good work going !! Cheers <img src='http://www.caveofprogramming.com/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> </p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2576#respond' onclick='return addComment.moveForm("comment-2576", "2576", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment even thread-even depth-1" id="li-comment-2616">
+		<div id="comment-2616">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/348ca9cf867b9b081033e68aa67b6f33?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Pallavi Agarwal</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2616">
+			January 14, 2013 at 6:52 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Hello John,</p>
+<p>Your collection tutorial is awesome but few parts in it are blurred and hence causing issues while studying them.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2616#respond' onclick='return addComment.moveForm("comment-2616", "2616", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	<ul class='children'>
+	<li class="comment byuser comment-author-Squiffy bypostauthor odd alt depth-2" id="li-comment-2618">
+		<div id="comment-2618">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/fb22750d0b233a412a1b16ae1c802c39?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Squiffy</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2618">
+			January 14, 2013 at 9:47 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>That&#8217;s bad. I don&#8217;t know why; I recorded them all the same way. I wonder if YouTube shows you a lo-def version when your Internet connection gets slow. If you could give me an example of a bit that&#8217;s blurred, I&#8217;ll have a look and see if I can do anything.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2618#respond' onclick='return addComment.moveForm("comment-2618", "2618", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+</ul>
+</li>
+	<li class="comment even thread-odd thread-alt depth-1" id="li-comment-2747">
+		<div id="comment-2747">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/e515257d71f05d7f244e04d79741e422?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Viraj Shetty</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2747">
+			January 21, 2013 at 3:15 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Hi, </p>
+<p>Great work. You  have put in an amazing amount of work on this. all your java lectures are very informative. What tool did you use for the screen recording? </p>
+<p>Good luck.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2747#respond' onclick='return addComment.moveForm("comment-2747", "2747", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	<ul class='children'>
+	<li class="comment byuser comment-author-Squiffy bypostauthor odd alt depth-2" id="li-comment-2748">
+		<div id="comment-2748">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/fb22750d0b233a412a1b16ae1c802c39?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Squiffy</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2748">
+			January 21, 2013 at 3:18 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Thanks Viraj. I use BB Flashback Express, which I can highly recommend. <a href="http://www.bbsoftware.co.uk/BBFlashBack_FreePlayer.aspx" rel="nofollow">http://www.bbsoftware.co.uk/BBFlashBack_FreePlayer.aspx</a></p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2748#respond' onclick='return addComment.moveForm("comment-2748", "2748", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+</ul>
+</li>
+	<li class="comment even thread-even depth-1" id="li-comment-2798">
+		<div id="comment-2798">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/64e97a793157c16476d2fa00c610f8b6?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Avi</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2798">
+			January 24, 2013 at 6:18 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Hi John,<br />
+Could you start a series on &#8220;Design Pattern&#8221;, i tried a them out but found very uninteresting in some articles. I am very confident you can make them very interesting, the way you teach.<br />
+Thanks in advance.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2798#respond' onclick='return addComment.moveForm("comment-2798", "2798", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	<ul class='children'>
+	<li class="comment byuser comment-author-Squiffy bypostauthor odd alt depth-2" id="li-comment-2802">
+		<div id="comment-2802">
+		<div class="comment-author vcard">
+			<img alt='' src='http://1.gravatar.com/avatar/fb22750d0b233a412a1b16ae1c802c39?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Squiffy</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2802">
+			January 24, 2013 at 11:26 am</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Thanks Avi! Yes, I absolutely intend to start making one in the next couple of weeks. Unless I change my mind, it&#8217;s going to be my next free course (while continuing to add to my Java for Complete Beginners and Android courses). I&#8217;ve been trying to decide what my next subscribers-only course will be too &#8212; think I will make a few videos of various subjects and see which ones people watch the most.</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2802#respond' onclick='return addComment.moveForm("comment-2802", "2802", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+</ul>
+</li>
+	<li class="comment even thread-odd thread-alt depth-1" id="li-comment-2831">
+		<div id="comment-2831">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/ef338207f4b2bc29107f564b12910491?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">Arkady Zelekman</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2831">
+			January 25, 2013 at 3:53 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Great !!! I was looking your video about Callable/Future. It impressed me greatly. Very very helpful !!!</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2831#respond' onclick='return addComment.moveForm("comment-2831", "2831", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment odd alt thread-even depth-1" id="li-comment-2834">
+		<div id="comment-2834">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/21d35356b4f79af9d9cc01f042d61ae8?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn"><a href='http://blog.devcanvas.org' rel='external nofollow' class='url'>Kefaleas Stavros</a></cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2834">
+			January 25, 2013 at 7:07 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>Congratulations for your excellent tutorials about java multithreading!<br />
+I am studying these videos now ay udemy.com</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2834#respond' onclick='return addComment.moveForm("comment-2834", "2834", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+	<li class="comment even thread-odd thread-alt depth-1" id="li-comment-2854">
+		<div id="comment-2854">
+		<div class="comment-author vcard">
+			<img alt='' src='http://0.gravatar.com/avatar/42410ab5deb6dc06d545180b933835d0?s=40&amp;d=monsterid&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />			<cite class="fn">batu</cite> <span class="says">says:</span>		</div><!-- .comment-author .vcard -->
+		
+		<div class="comment-meta commentmetadata"><a href="http://www.caveofprogramming.com/#comment-2854">
+			January 26, 2013 at 10:36 pm</a>		</div><!-- .comment-meta .commentmetadata -->
+
+		<div class="comment-body"><p>What a cool thing to do to deliver free classes . thanks</p>
+</div>
+
+		<div class="reply">
+			<a class='comment-reply-link' href='/?replytocom=2854#respond' onclick='return addComment.moveForm("comment-2854", "2854", "respond", "2519")'>Reply</a>		</div><!-- .reply -->
+	</div><!-- #comment-##  -->
+
+	</li>
+			</ol>
+
+
+
+								<div id="respond">
+				<h3 id="reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://www.caveofprogramming.com/wp-comments-post.php" method="post" id="commentform">
+																			<p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label><input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='2519' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="22600f224e" /></p>					</form>
+							</div><!-- #respond -->
+						
+</div><!-- #comments -->
+
+			<div class="entry-utility">
+												
+							
+
+
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+
+	
+
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+<div id="footer">
+
+<div class="copyright">Copyright &copy; 2013 John W. Purcell</div>
+
+</div>
+
+<!-- Start Shareaholic TopSharingBar Automatic --><!-- End Shareaholic TopSharingBar Automatic --><script type="text/javascript">var SHRSB_Settings = {"shr-publisher-2703":{"link":"http:\/\/www.caveofprogramming.com\/java\/debugging-in-eclipse-java-for-complete-beginners\/","shortener":"google","title":"Debugging in Eclipse: Java for Complete Beginners","notes":"A%20video%20on%20how%20to%20use%20the%20debugger%20in%20Eclipse.%20Debugging%20is%20something%20that%20a%20lot%20of%20developers%20happily%20get%20by%20without%2C%20but%20it%27s%20something%20that%27s%20sometimes%20very%20useful%2C%20and%20it%27s%20certainly%20something%20that%20every%20aspiring%20developer%20should%20learn.%20Debuggers%20help%20you%20get%20to%20the%20bottom%20of%20errors%20of%20logic%20in%20","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2699":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-for-complete-beginners-video-part-38-abstract-classes\/","shortener":"google","title":"Java for Complete Beginners (Video), Part 38: Abstract Classes","notes":"Abstract%20classes%20allow%20you%20to%20define%20the%20parent%20class%20of%20a%20new%20hierarchy%20without%20having%20to%20worry%20about%20the%20user%20actually%20instantiating%20the%20parent.%20For%20instance%20you%20could%20create%20an%20%22Animal%22%20class%20just%20to%20act%20as%20the%20basis%20for%20%22Dog%22%2C%20%22Cat%2C%20%22Sheep%22%20and%20so%20on%2C%20even%20defining%20some%20functionality%20in%20%22Animal%22","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2689":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-for-complete-beginners-video-part-37-runtime-exception\/","shortener":"google","title":"Java for Complete Beginners (Video), Part 37: Runtime Exceptions","notes":"Runtime%20exceptions%20are%20a%20kind%20of%20exception%20that%20you%27re%20not%20forced%20to%20handle.%20They%20usually%20point%20to%20serious%20problems%20with%20your%20code%2C%20indicating%20that%20you%20need%20to%20revise%20it.%20The%20infamous%20null%20pointer%20exception%20and%20array%20out-of-bounds%20exception%20are%20good%20examples.%20Examiners%20and%20interviewers%20love%20to%20ask%20a","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2679":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-for-complete-beginners-video-part-36-multiple-exceptions\/","shortener":"google","title":"Java for Complete Beginners (Video), Part 36: Multiple Exceptions","notes":"In%20this%20tutorial%20we%27ll%20take%20a%20look%20at%20throwing%20and%20handling%20multiple%20exceptions%2C%20plus%20a%20look%20at%20a%20popular%20exam%2Finterview%20question.%20Java%207%20introduced%20a%20new%20way%20of%20handling%20multiple%20exceptions%3B%20but%20even%20if%20you%27re%20still%20on%20Java%206%2C%20there%20are%20things%20you%20can%20do%20to%20cut%20down%20the%20amount%20of%20work%20in%20dealing%20wi","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2657":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-for-complete-beginners-video-part-35-throwing-exceptions\/","shortener":"google","title":"Java for Complete Beginners (Video), Part 35: Throwing Exceptions","notes":"In%20this%20tutorial%20we%27ll%20take%20a%20look%20at%20how%20to%20throw%20your%20own%20exceptions%20in%20Java.%20Throwing%20an%20exception%20is%20a%20useful%20thing%20to%20do%20when%20your%20method%20encounters%20an%20unexpected%20error%3B%20the%20exception%20will%20immediately%20return%20from%20your%20method%2C%20enabling%20you%20to%20handle%20the%20problem%20further%20up%20the%20call%20stack.%0D%0A%0D%0AWhen","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2652":{"link":"http:\/\/www.caveofprogramming.com\/java\/ten-tips-to-make-you-a-better-programmer\/","shortener":"google","title":"Ten Tips to Make You a Better Programmer","notes":"In%20this%20video%20I%27ll%20count%20down%20my%20top%20ten%20tips%20for%20improving%20your%20coding.%20Professionals%20will%20know%20these%20tips%20already%20%28or%20should%20do%29%2C%20but%20beginners%20often%20ignore%20them%2C%20accidentally%20wasting%20a%20lot%20of%20time%20in%20the%20process.%20If%20you%20follow%20all%20of%20these%20tips%2C%20I%20guarantee%20it%20will%20hugely%20improve%20your%20productivit","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2637":{"link":"http:\/\/www.caveofprogramming.com\/boxshot","shortener":"google","title":"Creating Product Boxes with Inkscape and Box Shot 3D","notes":"%0D%0A%0D%0ABox%20Shot%203D%20lets%20you%20create%20raytraced%20product%20boxes%2C%20DVD%20packs%2C%20mugs%2C%20leaflets%20and%20lots%20more.%20The%20idea%20is%2C%20you%20supply%20your%20own%20images%2C%20incorporating%20your%20own%20logos%20and%20text%2C%20then%20Box%20Shot%203D%20renders%20them%20into%20a%20realistic-looking%20image%20of%20your%20product.%0D%0A%0D%0AIn%20this%20tutorial%20I%27ll%20show%20you%20how%20to%20use","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2613":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-for-complete-beginners-video-part-34-handling-exceptions\/","shortener":"google","title":"Java for Complete Beginners (Video), Part 34: Handling Exceptions","notes":"Exceptions%20are%20a%20major%20part%20of%20the%20Java%20language%3B%20so%20much%20so%20that%20you%20can%27t%20write%20very%20much%20code%20without%20at%20least%20having%20to%20handle%20some%20of%20them.%20In%20this%20tutorial%20we%27ll%20get%20started%20with%20Exceptions%2C%20and%20I%27ll%20also%20give%20you%20some%20tips%20for%20taking%20the%20sting%20out%20of%20those%20big%20red%20error%20messages%20that%20so%20horri","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2505":{"link":"http:\/\/www.caveofprogramming.com\/java\/deciding-which-collection-video-tutorial-part-12\/","shortener":"google","title":"Deciding Which Collection to Use: Java Collections Framework Video Tutorial, Part 12","notes":"How%20to%20decide%20which%20collection%20to%20use.%20Not%20only%20is%20this%20the%20first%20thing%20anyone%20needs%20to%20know%20when%20they%27re%20planning%20to%20use%20a%20Java%20Collections%20class%2C%20but%20it%27s%20also%20a%20favourite%20question%20of%20interviewers%20and%20examiners%20%28although%20quite%20not%20as%20favourite%20as%20the%20notorious%20%22how%20do%20you%20reverse%20a%20string%3F%22%29.%20In%20t","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2496":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-advent-calendar-looking-for-authors\/","shortener":"google","title":"Java Advent Calendar (Looking for Authors)","notes":"This%20is%20a%20post%20just%20to%20implore%20you%20to%20check%20out%20the%20Java%20Advent%20Calendar%20%28http%3A%2F%2Fwww.javaadvent.com%2F%29%2C%20which%20aims%20to%20publish%20a%20new%20fantastic%20Java%20article%20for%20each%20day%20of%20December%202012%20%28except%2C%20of%20course%2C%20science%20tells%20us%20that%20the%20world%20ends%20on%20December%2021st%2C%20so%20what%20better%20way%20that%20to%20celebrate%20the%20","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2490":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-multithreading-swing-swingworker-part-15\/","shortener":"google","title":"Java Multithreading: Swing and SwingWorker (Video Tutorial Part 15)","notes":"If%20you%27re%20doing%20Swing%20%28GUI%29%20programming%20in%20Java%2C%20you%20might%20want%20to%20consider%20using%20the%20SwingWorker%20class%20for%20your%20multithreading%20needs.%20SwingWorker%20is%20a%20ferocious-looking%20but%20useful%20class%20that%27s%20perfect%20for%20running%20stuff%20in%20the%20background%20while%20simultaneously%20updating%20progress%20bars%20and%20that%20sort%20of%20t","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2483":{"link":"http:\/\/www.caveofprogramming.com\/java\/using-iterable-java-collections-framework-video-tutorial-part-11\/","shortener":"google","title":"Implementing Iterable; Downloading HTML Using Java: Java Collections Framework Video Tutorial, Part 11","notes":"How%20and%20why%20to%20implement%20Iterable%20and%20Iterator%20in%20Java%2C%20with%20an%20example%20of%20downloading%20HTML%20in%20Java%20while%20iterating%20through%20a%20%22for-each%22%20loop.%0D%0A%0D%0AAfter%20starting%20the%20video%2C%20click%20the%20maximise%20button%20to%20make%20it%20fullscreen%20so%20you%20can%20see%20the%20code%21%0D%0A%0D%0A%0D%0A%0D%0ACode%20For%20This%20Tutorial%0D%0A%0D%0AApp.java%3A%20%0D%0A%0D%0Aimport%20j","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2472":{"link":"http:\/\/www.caveofprogramming.com\/java\/using-iterators-java-collections-framework-video-tutorial-part-10\/","shortener":"google","title":"Using Iterators: Java Collections Framework Video Tutorial, Part 10","notes":"A%20look%20at%20using%20iterators%20in%20Java%3B%20how%20%22for%20each%22%20loops%20work%20and%20how%20to%20add%20or%20remove%20elements%20from%20a%20list%20while%20iterating%20through%20it.%0D%0A%0D%0AAfter%20starting%20the%20video%2C%20click%20the%20maximise%20button%20to%20make%20it%20fullscreen%20so%20you%20can%20see%20the%20code%21%0D%0A%0D%0A%0D%0A%0D%0ACode%20For%20This%20Tutorial%0D%0A%0D%0AApp.java%3A%20%0D%0A%0D%0A%0D%0Aimport%20java.ut","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2451":{"link":"http:\/\/www.caveofprogramming.com\/java\/java-for-complete-beginners-video-part-33-reading-files\/","shortener":"google","title":"Java for Complete Beginners (Video), Part 33: Reading Files","notes":"You%20can%20use%20the%20Scanner%20class%20to%20simplify%20reading%20text%20files%20quite%20a%20bit.%20In%20this%20tutorial%20we%27ll%20see%20how%20to%20do%20it%2C%20and%20I%27ll%20also%20explain%20how%20to%20locate%20your%20file%20on%20the%20disk%20and%20we%27ll%20look%20at%20a%20little%20gotcha%20that%20might%20catch%20you%20out%20if%20you%20want%20to%20read%20numbers%20from%20your%20file.%20Plus%2C%20a%20little%20insight%20i","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2432":{"link":"http:\/\/www.caveofprogramming.com\/java\/queue-java-collections-framework-video-tutorial-part-9\/","shortener":"google","title":"Queues: Java Collections Framework Video Tutorial, Part 9","notes":"A%20tutorial%20on%20the%20Java%20Queue%20interface%2C%20plus%20a%20couple%20of%20examples%20of%20Queues%20and%20a%20bit%20about%20the%20highly-useful%20%28if%20you%27re%20into%20multithreading%29%20BlockingQueue%20interface.%0D%0A%0D%0AAfter%20starting%20the%20video%2C%20click%20the%20maximise%20button%20to%20make%20it%20fullscreen%20so%20you%20can%20see%20the%20code%21%0D%0A%0D%0A%0D%0A%0D%0ACode%20For%20This%20Tutorial%0D%0A","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2409":{"link":"http:\/\/www.caveofprogramming.com\/servlets-and-jsps\/hello-world-servlet\/","shortener":"google","title":"Servlets and JSPs: Part 3 - A \"Hello World\" Servlet","notes":"Learn%20Java%20web%20programming%0D%0A%0D%0ADiscover%20how%20to%20create%20a%20basic%20Java%20servlet%20with%20this%2C%20the%20third%20part%20in%20the%20series%20on%20Java%20web%20programming%20from%20Cave%20of%20Programming.%20Java%20servlets%20are%20the%20basic%20building%20blocks%20of%20Java-powered%20websites%2C%20and%20it%27s%20surprisingly%20easy%20to%20create%20one.%0D%0A%0D%0AGet%20a%2030%25%20discount%20on","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2400":{"link":"http:\/\/www.caveofprogramming.com\/assorted\/make-money-as-a-affiliate-of-cave-of-programming\/","shortener":"google","title":"Make Money as a Affiliate of Cave of Programming","notes":"Cave%20of%20Programming%20is%20looking%20for%20affiliates%20to%20sell%20our%20courses%3B%20make%20up%20to%20%2429%20per%20sale%20just%20by%20adding%20links%20to%20your%20site%20or%20blog%20posts.%20%0D%0A%0D%0AMy%20name%27s%20John%20and%20I%20run%20caveofprogramming.com%3B%20I%20currently%20have%20two%20video%20courses%20hosted%20on%20Udemy.com.%20Would%20you%20like%20to%20make%20money%20by%20advertising%20these%20co","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2385":{"link":"http:\/\/www.caveofprogramming.com\/servlets-and-jsps\/tomcat-eclipse-part-2\/","shortener":"google","title":"Servlets and JSPs: Part 2 - Setting Up Your System","notes":"Learn%20Java%20web%20programming%0D%0A%0D%0AIn%20this%20tutorial%20series%20I%27ll%20show%20you%20how%20to%20leverage%20the%20power%20of%20Java%20to%20create%20powerful%2C%20dynamic%20websites%20and%20deploy%20them%20on%20the%20Internet%20for%20free.%20In%20this%20second%20video%20we%27ll%20look%20at%20how%20to%20install%20the%20free%2C%20industry-standard%20software%20that%20you%20need%20to%20develop%20Java%20we","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2364":{"link":"http:\/\/www.caveofprogramming.com\/courses","shortener":"google","title":"Complete Video Courses","notes":"Welcome%20to%20the%20Cave%20of%20Programming%20course%20list%21%20You%20can%20find%20here%20details%20of%20a%20number%20of%20complete%20or%20complete-ish%20courses%2C%20taking%20you%20from%20a%20Java%20beginner%20all%20the%20way%20to%20a%20highly%20skilled%20expert.%0D%0A%0D%0ASome%20of%20these%20courses%20are%20hosted%20on%20Udemy.com%3B%20others%20can%20be%20found%20right%20here%20on%20CaveOfProgramming.com","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"},"shr-publisher-2354":{"link":"http:\/\/www.caveofprogramming.com\/javaweb","shortener":"google","title":"JSP and Servlet Tutorial: Learn Java Web Programming","notes":"Welcome%20to%20the%20Java%20web%20programming%20tutorial%20series%20from%20Cave%20of%20Programming%21%0D%0A%0D%0AYou%20can%20find%20the%20complete%20course%20here%20at%20Udemy.com%0D%0A%0D%0AAt%20the%20above%20link%20you%20can%20find%20seven%20completely%20free%20videos%20and%20a%2030%25%20discount%20on%20the%20full%20course.%0D%0A%0D%0A%0D%0A%0D%0AGet%20Started%20For%20Free%0D%0A%0D%0AThe%20full%20course%20covers%20Java%20web%20pro","service":"5,7,88,74,2,38,52,201,236,3","apikey":"8afa39428933be41f8afdb8ea21a495c","expand":true,"src":"http:\/\/www.caveofprogramming.com\/wp-content\/uploads\/shareaholic\/spritegen","localize":true,"share_src":"http:\/\/www.shareaholic.com","rel":"nofollow","target":"_blank","bgimg":"http:\/\/www.caveofprogramming.com\/wp-content\/plugins\/sexybookmarks\/images\/share-knowledge.png","bgimg_padding":"35px 0 0 10px","center":true,"twitter_template":"%24%7Btitle%7D+-+%24%7Bshort_link%7D+via+%40Shareaholic","mode":"inject","designer_toolTips":"1","tip_bg_color":"#000000","tip_text_color":"#ffffff","shrlink":"1"}};</script>	
+<!-- START: Syntax Highlighter ComPress -->
+<script type="text/javascript">
+    SyntaxHighlighter.autoloader(
+        'applescript			http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAppleScript.js',
+        'actionscript3 as3		http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushAS3.js',
+        'bash shell				http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushBash.js',
+        'coldfusion cf			http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushColdFusion.js',
+        'cpp c					http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCpp.js',
+        'c# c-sharp csharp		http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCSharp.js',
+        'css					http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushCss.js',
+        'delphi pascal pas		http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDelphi.js',
+        'diff patch			    http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushDiff.js',
+        'erl erlang				http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushErlang.js',
+        'groovy					http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushGroovy.js',
+        'java					http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJava.js',
+        'jfx javafx				http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJavaFX.js',
+        'js jscript javascript	http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushJScript.js',
+        'perl pl				http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPerl.js',
+        'php					http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPhp.js',
+        'text plain				http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPlain.js',
+        'powershell ps          http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPowerShell.js',
+        'py python				http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushPython.js',
+        'ruby rails ror rb		http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushRuby.js',
+        'sass scss              http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSass.js',
+        'scala					http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushScala.js',
+        'sql					http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushSql.js',
+        'vb vbnet				http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushVb.js',
+        'xml xhtml xslt html	http://www.caveofprogramming.com/wp-content/plugins/syntax-highlighter-compress/scripts/shBrushXml.js'
+    );
+                        SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.all();
+</script>
+<!-- END: Syntax Highlighter ComPress -->
+
+	<script type='text/javascript'>var _cmo = {background_color: "#68202C",label: "Contact",text: "Contact",align: "left",valign: "middle",form: "4df20591b15c2d0001010a2d",lang: "en"}; (function() {var cms = document.createElement('script'); cms.type = 'text/javascript'; cms.async = true; cms.src = 'http://static.contactme.com/widgets/tab/v1/tab.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cms, s);})();</script><script type='text/javascript' src='http://www.caveofprogramming.com/wp-content/plugins/optimized-latex/ajax.js?ver=0,50'></script>
+
+</body>
+</html>
