@@ -6,7 +6,7 @@ $|=1;
 sub main {
 	
 	# open $input for reading
-	my $input = 'C:\tutorial\perl\mymanjeeves.txt';
+	my $input = 'mymanjeeves.txt';
 	open(INPUT, $input) or die("Input file $input not found.\n");
 	
 	# open $output for writing

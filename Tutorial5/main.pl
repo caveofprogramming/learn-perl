@@ -4,7 +4,7 @@ use warnings;
 $|=1;
 
 sub main {
-	my $file = 'C:\tutorial\perl\mymanjeeves.txt';
+	my $file = 'mymanjeeves.txt';
 	
 	# Either successfully open the file or else die (stop the program)
 	open(INPUT, $file) or die("Input file $file not found.\n");
