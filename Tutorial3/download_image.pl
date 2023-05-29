@@ -14,8 +14,8 @@ my $link = 'https://i0.wp.com/caveofpython.com/wp-content/uploads/2023/03/robot.
 
 my $response = $ua->mirror($link, './robot.png');
 
-unless($response->is_success) {
-    print $response->status_line;
+unless($response->is_success()) {
+    die $response->status_line();
 }
 
 print("\nCompleted")

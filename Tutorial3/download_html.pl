@@ -2,7 +2,6 @@ use strict;
 use warnings;
 use LWP::UserAgent;
 use IO::Socket::SSL;
-use Data::Dumper;
 
 my $ua = LWP::UserAgent->new(cookie_jar=>{});
 
@@ -15,10 +14,12 @@ my $request = new HTTP::Request('GET', 'https://caveofpython.com/');
 
 my $response = $ua->request($request);
 
-unless($response->{'is_success'}) {
-    print $response->{'status_line'}
+unless($response->is_success()) {
+    die $response->status_line();
 }
 
-print($response->content());
+my $content = $response->decoded_content();
+
+print($content);
 
 print("Completed")
